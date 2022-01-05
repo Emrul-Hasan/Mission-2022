@@ -5,13 +5,15 @@ body{
 }
 h1{
     font-size: 50px;
-
+}
+h2{
+    font-size: 40px;
 }
 
 .flaxible-container{
     display: flex;
-    width: 80%;
-    margin: 0 auto;
+    margin: 100px;
+    
 
 }
 .half-width{
@@ -19,7 +21,8 @@ h1{
     padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 70%;
+  
 }
 .Color-orange{
     color: orange;
@@ -43,10 +46,9 @@ h1{
 .mission-position{
     text-align: center;
 }
-.parrent{
-    display: flex;
-}
+
 .Experice-item{
+   
     width: 100%;
     margin-left: 5%;
     margin-right: 5%;
@@ -54,5 +56,47 @@ h1{
     padding-right: 20px;
     text-align: justify;
     border-radius: 10px;
-    box-shadow: 10px 10px 40px gray;
+
+  
+   
+}
+#goals-backcolor{
+    background-color: antiquewhite;
+}
+#vision-backcolor{
+    background-color: rgb(230, 217, 241);
+}
+#Mission-backcolor{
+    background-color: rgb(235, 209, 202);
+}
+.Experice-item img{
+    width: 60%;
+}
+.middle-banner{
+    background-image: url(images/shapes/shape-1.png);
+   background-repeat: no-repeat;
+   background-position: left;
+   background-size: 200px;
+ 
+}
+.last-banner{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+    background-position-y: 280px;
+   
+  
+}
+#footer-color{
+   
+    text-align: center;
+    padding: 20px;
+
+}
+footer{
+    color: rgb(233, 212, 212);
+    padding: 20px;
+    text-align: center;
+    background-color: black;
 }
