@@ -1,0 +1,58 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+
+}
+
+.flaxible-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.Color-orange{
+    color: orange;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 38, 0), tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+#web1{
+
+
+    border-left: 4px solid;
+    border-image: linear-gradient(rgb(179, 91, 51), rgb(250, 246, 5));
+    border-image-slice: 2;
+
+}
+.mission-position{
+    text-align: center;
+}
+.parrent{
+    display: flex;
+}
+.Experice-item{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
